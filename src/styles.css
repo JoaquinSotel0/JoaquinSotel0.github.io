@@ -1344,3 +1344,53 @@
 .project-gallery a:hover {
   border-color: #c3f377;
 }
+
+/* Flores-MobileNetV2 uses its own project icon, not a simulated screenshot. */
+.flowers-art {
+  background: #20332a;
+}
+.flowers-graphic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  width: 100%;
+}
+.flowers-logo {
+  width: clamp(70px, 10vw, 112px);
+  height: auto;
+  border-radius: 22px;
+  box-shadow: 10px 18px 30px #071a1440;
+  transform: rotate(-7deg);
+}
+.flowers-overline {
+  color: #93b7a0;
+  font: 7px var(--font-mono);
+  letter-spacing: 0.7px;
+}
+.flowers-title {
+  margin-top: 12px;
+  color: #e0eed9;
+  font-size: 29px;
+  line-height: 1.14;
+  letter-spacing: -1px;
+}
+.flowers-detail {
+  margin-top: 14px;
+  color: #b1c99f;
+  font: 8px/1.6 var(--font-mono);
+}
+@media (max-width: 380px) {
+  .flowers-graphic {
+    gap: 16px;
+  }
+  .flowers-overline {
+    font-size: 6px;
+  }
+  .flowers-title {
+    font-size: 25px;
+  }
+  .flowers-detail {
+    font-size: 7px;
+  }
+}

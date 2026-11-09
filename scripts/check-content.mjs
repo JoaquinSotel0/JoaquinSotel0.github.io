@@ -11,7 +11,7 @@ assert.deepEqual(
   projects.map((project) => project.repository),
   [
     "https://github.com/CMancillas/creador_plan_de_proyectos",
-    "https://github.com/JoaquinSotel0/ProyectoINGE",
+    "https://github.com/JoaquinSotel0/Flores-MobileNetV2",
     "https://github.com/JoaquinSotel0/COVID-2020-Durango",
   ],
 );

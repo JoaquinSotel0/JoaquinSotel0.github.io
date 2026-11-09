@@ -2,7 +2,7 @@
 
 A complete, responsive, English-language portfolio built with React, Vite, JavaScript, Tailwind CSS, and Motion. Designed for **[JoaquinSotel0/JoaquinSotel0.github.io](https://github.com/JoaquinSotel0/JoaquinSotel0.github.io)** and the root URL **https://joaquinsotel0.github.io/**.
 
-The dark interface includes a developer-profile hero, three repository-backed projects, expandable contribution details, an about section, the supplied technology inventory, and GitHub contact links. All project art is clearly labeled conceptual CSS/SVG illustration. Fonts are self-hosted.
+The dark interface includes a developer-profile hero, three repository-backed projects, expandable contribution details, an about section, the supplied technology inventory, and GitHub contact links. Project Plan Generator includes owner-supplied screenshots; Flores-MobileNetV2 uses its project icon; remaining concept illustrations are labeled. Fonts are self-hosted.
 
 ## Run locally
 

@@ -18,11 +18,15 @@ Public Git history contains the following commits authored by Joaquin Sotelo. Th
 | Debugging                        | [7931ee5](https://github.com/CMancillas/creador_plan_de_proyectos/commit/7931ee516b36631dc14728b80591e94a488f5dd5), [3e241f3](https://github.com/CMancillas/creador_plan_de_proyectos/commit/3e241f344405d63e4f84ba59efc5f2b1fb4956af)                                                                                                                     |
 | Branch merging                   | [39d1209](https://github.com/CMancillas/creador_plan_de_proyectos/commit/39d1209a0695e7c1ae9c4e2a7d9928dfa1eb69e2)                                                                                                                                                                                                                                         |
 
-## ProyectoINGE
+## Flores-MobileNetV2
 
-[Repository and README](https://github.com/JoaquinSotel0/ProyectoINGE#readme). The repository is a fork of `Proyecto-ingenieria-de-software-BAMX/BAMX`. Its README names Joaquin Sotelo among the team members and describes registration, login, an example dashboard with charts, Node.js, and MySQL.
+Added on November 9, 2026, replacing ProyectoINGE at the owner's request.
 
-The portfolio describes these as shared project features. It does **not** assign authentication, database design, dashboard implementation, or any other particular feature to Joaquin personally.
+[Repository and README](https://github.com/JoaquinSotel0/Flores-MobileNetV2#readme). The README describes MobileNetV2 transfer learning for 104 flower classes, TensorFlow/Keras training, and a TensorFlow.js browser application supporting photo selection and live camera input. The source's `classes.json` was checked and contains 104 entries. The app performs inference on the device; the training and export pipeline is separate from the portfolio itself.
+
+The portfolio describes project features without inventing personal feature ownership, accuracy, real-world reliability, or deployment benchmarks. Prediction-comparison tools exist; their presence is not presented as proof of a successful evaluation. TensorFlow/Keras/TensorFlow.js are project tags, not additions to the self-reported skills inventory.
+
+The flower visual uses the project's actual [icon.svg](https://github.com/JoaquinSotel0/Flores-MobileNetV2/blob/main/herbario_web/public/icon.svg), bundled locally and labeled as a project icon. It is not an application screenshot or a prediction result. Real app screenshots can later be added through the existing `screenshots` field.
 
 ## COVID-2020-Durango
 
@@ -31,9 +35,9 @@ The portfolio describes these as shared project features. It does **not** assign
 ## Personal information and visuals
 
 - Name and GitHub username follow the brief and repository references.
-- The skills inventory is self-reported in the brief. No proficiency percentages are invented. Node.js is labeled only in the relevant project stack.
+- The skills inventory is self-reported in the brief. No proficiency percentages are invented. Technologies specific to Flores-MobileNetV2 are labeled in that project’s stack.
 - GitHub is the only contact destination. No email address, phone number, LinkedIn profile, résumé, or location is invented or extracted from commit metadata.
-- Project visuals are original CSS/SVG concept illustrations. Each is visibly labeled; the line chart is decorative and contains no actual research results.
+- Project Plan Generator uses screenshots supplied by the owner. Flores-MobileNetV2 uses its project icon. The remaining concept illustrations are labeled; the COVID line chart is decorative and contains no actual research results.
 - Fonts are bundled locally through Fontsource. There are no stock photos, remote screenshots, third-party tracking, or runtime GitHub API requests.
 
 ## Framework references

@@ -1,6 +1,6 @@
 import Icon from "./Icon";
 
-// Original conceptual illustrations, not application screenshots or real data.
+// Concept illustrations and project icons, not application screenshots or real data.
 export default function ProjectArt({ type }) {
   if (type === "planner")
     return (
@@ -40,6 +40,34 @@ export default function ProjectArt({ type }) {
         <span className="art-caption">
           CONCEPT ILLUSTRATION / PROJECT PLANNING
         </span>
+      </div>
+    );
+  if (type === "flowers")
+    return (
+      <div className="project-art flowers-art" aria-hidden="true">
+        <div className="flowers-graphic">
+          <img
+            className="flowers-logo"
+            src="/images/flowers/project-icon.svg"
+            alt=""
+            width="112"
+            height="112"
+          />
+          <div>
+            <span className="flowers-overline">
+              MOBILENETV2 / TENSORFLOW.JS
+            </span>
+            <div className="flowers-title">
+              Flowers,
+              <br />
+              classified.
+            </div>
+            <div className="flowers-detail">
+              104 classes · On-device inference
+            </div>
+          </div>
+        </div>
+        <span className="art-caption">PROJECT ICON / FLORES-MOBILENETV2</span>
       </div>
     );
   if (type === "dashboard")
