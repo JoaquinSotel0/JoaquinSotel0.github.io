@@ -1,7 +1,7 @@
 // Edit portfolio copy here. Project-level features and personal contributions
 // are intentionally separate; see docs/CONTENT_SOURCES.md before adding claims.
 export const profile = {
-  name: "Joaquin Sotelo",
+  name: "Joaquin Rafael Sotelo Islas",
   username: "JoaquinSotel0",
   role: "Full-Stack Developer",
   github: "https://github.com/JoaquinSotel0",
@@ -30,6 +30,20 @@ export const projects = [
       "URL and module integration, debugging, and branch merging.",
     ],
     illustration: "planner",
+    screenshots: [
+  {
+    src: "/images/project-plan/resumen.png",
+    alt: "Project overview",
+  },
+  {
+    src: "/images/project-plan/cronograma.png",
+    alt: "Project schedule",
+  },
+  {
+    src: "/images/project-plan/riesgos.png",
+    alt: "Project risks",
+  },
+    ],
   },
   {
     id: "proyectoinge",

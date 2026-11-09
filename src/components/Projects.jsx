@@ -31,7 +31,29 @@ export default function Projects() {
             <article
               className={`project-card ${index === 0 ? "is-featured" : ""}`}
             >
-              <ProjectArt type={project.illustration} />
+              {project.screenshots?.length ? (
+                <div className="project-gallery">
+                  {project.screenshots.map((image, index) => (
+                    <a
+                      key={image.src}
+                      className={index === 0 ? "gallery-cover" : ""}
+                      href={image.src}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`Open screenshot: ${image.alt}`}
+                    >
+                      <img
+                        src={image.src}
+                        alt={image.alt}
+                        loading="lazy"
+                      />
+                      <span>{image.alt} ↗</span>
+                    </a>
+                  ))}
+                </div>
+              ) : (
+                <ProjectArt type={project.illustration} />
+              )}
               <div className="project-content">
                 <div className="project-category">
                   <span>{project.category}</span>
