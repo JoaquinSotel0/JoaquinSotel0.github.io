@@ -65,6 +65,11 @@ export const projects = [
       "Includes model export and tools to compare predictions between Python and the browser.",
     ],
     illustration: "flowers",
+    video: {
+      id: "CJQRRYFzbeg",
+      title: "Flores-MobileNetV2 demo",
+      url: "https://www.youtube.com/watch?v=CJQRRYFzbeg",
+    },
   },
   {
     id: "covid-2020-durango",
@@ -86,6 +91,12 @@ export const projects = [
       "A historical data analysis project; no clinical or predictive claims are made.",
     ],
     illustration: "analysis",
+    screenshots: [
+      {
+        src: "/images/durango/durango.jpeg",
+        alt: "Durango COVID-19 dashboard",
+      },
+    ],
   },
 ];
 

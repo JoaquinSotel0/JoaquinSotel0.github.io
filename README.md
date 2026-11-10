@@ -2,7 +2,7 @@
 
 A complete, responsive, English-language portfolio built with React, Vite, JavaScript, Tailwind CSS, and Motion. Designed for **[JoaquinSotel0/JoaquinSotel0.github.io](https://github.com/JoaquinSotel0/JoaquinSotel0.github.io)** and the root URL **https://joaquinsotel0.github.io/**.
 
-The dark interface includes a developer-profile hero, three repository-backed projects, expandable contribution details, an about section, the supplied technology inventory, and GitHub contact links. Project Plan Generator includes owner-supplied screenshots; Flores-MobileNetV2 uses its project icon; remaining concept illustrations are labeled. Fonts are self-hosted.
+The dark interface includes a developer-profile hero, three repository-backed projects, expandable contribution details, an about section, the supplied technology inventory, and GitHub contact links. Project Plan Generator and COVID-2020-Durango include owner-supplied screenshots. Flores-MobileNetV2 includes a YouTube demo with a direct viewing link. Fonts are self-hosted.
 
 ## Run locally
 
@@ -77,6 +77,7 @@ vite.config.js              Vite + React + Tailwind; root-site base
 ```
 
 - **Content:** edit `src/data/portfolio.js`; about/contact copy lives in `src/App.jsx`.
+- **Project media:** edit each project’s `screenshots` or `video` field in `src/data/portfolio.js`. Image paths start with `/images/` and refer to files inside `public/images/`. Videos use a YouTube video ID, title, and watch URL; playback supports full screen and does not start automatically. Screenshot links open the full image in a new tab.
 - **Design:** edit `src/styles.css`. The `@theme` block defines Tailwind font/color tokens; component rules handle the art and layouts. Tailwind utilities are available throughout JSX.
 - **Motion:** `Reveal.jsx` provides restrained viewport transitions, with system reduced-motion support in both Motion and CSS.
 - **Projects:** keep project scope separate from your own verified work. Review [content sources](docs/CONTENT_SOURCES.md) before changing attribution.

@@ -31,7 +31,28 @@ export default function Projects() {
             <article
               className={`project-card ${index === 0 ? "is-featured" : ""}`}
             >
-              {project.screenshots?.length ? (
+              {project.video ? (
+                <div className="project-video">
+                  <iframe
+                    src={`https://www.youtube-nocookie.com/embed/${project.video.id}?playsinline=1&rel=0`}
+                    title={project.video.title}
+                    loading="lazy"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  />
+                  <a
+                    className="project-video-link"
+                    href={project.video.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>Watch demo on YouTube</span>
+                    <Icon name="diagonal" size={13} />
+                    <span className="sr-only">: {project.title}</span>
+                  </a>
+                </div>
+              ) : project.screenshots?.length ? (
                 <div className="project-gallery">
                   {project.screenshots.map((image, index) => (
                     <a

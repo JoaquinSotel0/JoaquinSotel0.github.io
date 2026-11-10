@@ -26,19 +26,21 @@ Added on November 9, 2026, replacing ProyectoINGE at the owner's request.
 
 The portfolio describes project features without inventing personal feature ownership, accuracy, real-world reliability, or deployment benchmarks. Prediction-comparison tools exist; their presence is not presented as proof of a successful evaluation. TensorFlow/Keras/TensorFlow.js are project tags, not additions to the self-reported skills inventory.
 
-The flower visual uses the project's actual [icon.svg](https://github.com/JoaquinSotel0/Flores-MobileNetV2/blob/main/herbario_web/public/icon.svg), bundled locally and labeled as a project icon. It is not an application screenshot or a prediction result. Real app screenshots can later be added through the existing `screenshots` field.
+The owner supplied [this demo video](https://www.youtube.com/watch?v=CJQRRYFzbeg) for the project card. It is embedded using YouTube’s privacy-enhanced player, with a direct watch link. The project’s actual [icon.svg](https://github.com/JoaquinSotel0/Flores-MobileNetV2/blob/main/herbario_web/public/icon.svg) remains bundled as fallback artwork.
 
 ## COVID-2020-Durango
 
 [Repository](https://github.com/JoaquinSotel0/COVID-2020-Durango). Its description covers descriptive statistics on confirmed COVID-19 cases in Durango in 2020. The repository has `Data`, `Scripts`, `Exports`, and an R project file. The portfolio claims no epidemiological conclusions, forecasting capability, clinical advice, or numerical findings.
+
+The owner-supplied `public/images/durango/durango.jpeg` shows the locally adjusted Shiny dashboard. Its scope is records with medical-unit state `ENTIDAD_UM = 10`, rather than a residence filter. The screenshot does not imply that the adjusted dashboard code has been uploaded to the linked analysis repository.
 
 ## Personal information and visuals
 
 - Name and GitHub username follow the brief and repository references.
 - The skills inventory is self-reported in the brief. No proficiency percentages are invented. Technologies specific to Flores-MobileNetV2 are labeled in that project’s stack.
 - GitHub is the only contact destination. No email address, phone number, LinkedIn profile, résumé, or location is invented or extracted from commit metadata.
-- Project Plan Generator uses screenshots supplied by the owner. Flores-MobileNetV2 uses its project icon. The remaining concept illustrations are labeled; the COVID line chart is decorative and contains no actual research results.
-- Fonts are bundled locally through Fontsource. There are no stock photos, remote screenshots, third-party tracking, or runtime GitHub API requests.
+- Project Plan Generator and COVID-2020-Durango use screenshots supplied by the owner. Flores-MobileNetV2 uses the demo video supplied by the owner.
+- Fonts and screenshots are bundled locally. The YouTube embed loads third-party content; it uses the privacy-enhanced domain, lazy loading, and no automatic playback. There are no stock photos or runtime GitHub API requests.
 
 ## Framework references
 

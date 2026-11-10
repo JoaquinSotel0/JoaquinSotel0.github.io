@@ -1395,3 +1395,34 @@
     font-size: 7px;
   }
 }
+
+
+.project-video {
+  min-width: 0;
+  padding: 20px;
+  background: #20291c;
+}
+
+.project-video iframe {
+  display: block;
+  width: 100%;
+  min-height: 200px;
+  aspect-ratio: 16 / 10;
+  border: 1px solid #46513a;
+  border-radius: 6px;
+  background: #101211;
+}
+
+.project-video-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  color: #c3f377;
+  font-size: 11px;
+}
+
+.project-video-link:hover {
+  color: #e0eed9;
+}
