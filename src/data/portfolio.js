@@ -5,8 +5,9 @@ export const profile = {
   username: "JoaquinSotel0",
   role: "Full-Stack Developer",
   github: "https://github.com/JoaquinSotel0",
-  intro:
-    "I work across interfaces, backend logic, and databases to turn complex problems into practical web applications.",
+  intro:`As a Computer Science student, my passion lies in turning complex problems into practical, intelligent web applications. I bridge the gap between interfaces, databases, and machine learning by combining my experience in modern web development and neural networks.
+
+I code primarily in Python 🐍, Java ☕, and C++ ⚙️, and I am fluent in both English and Spanish 🌎.`
 };
 
 export const projects = [
@@ -50,7 +51,7 @@ export const projects = [
     number: "02",
     title: "Flores-MobileNetV2",
     category: "COMPUTER VISION & WEB DEVELOPMENT",
-    role: "Machine learning · Browser application",
+    role: "Machine learning · Browser application using camera in real time",
     description:
       "A flower image classifier for 104 classes, combining MobileNetV2 transfer learning with a web application that runs predictions directly in the browser.",
     tags: ["Python", "TensorFlow", "Keras", "TensorFlow.js", "JavaScript"],
@@ -80,7 +81,7 @@ export const projects = [
     evidenceLabel: "Explore the R scripts",
     detailTitle: "Analysis focus",
     details: [
-      "Descriptive analysis of the 2020 confirmed-case dataset for Durango.",
+      "Descriptive analysis of the 2020 confirmed-case dataset for Durango State in Mexico.",
       "R project organized into data, scripts, and exports.",
       "A historical data analysis project; no clinical or predictive claims are made.",
     ],
