@@ -110,9 +110,10 @@ export default function Hero() {
             <span className="status-dot" /> FULL-STACK DEVELOPER
           </p>
           <h1 id="hero-title">
-            Thoughtful code.
-            <br />
-            <span>Useful things.</span>
+            <span className="hero-title-line">Continuous learning.</span>{" "}
+            <span className="hero-title-line hero-title-accent">
+              Proven experience.
+            </span>
           </h1>
           <p className="hero-intro">
             Hi, I’m <strong>{profile.name}.</strong>

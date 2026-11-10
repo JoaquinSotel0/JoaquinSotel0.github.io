@@ -179,18 +179,28 @@
   }
   .hero-grid {
     display: grid;
-    grid-template-columns: 1.08fr 1fr;
+    grid-template-columns: minmax(0, 1.08fr) minmax(0, 1fr);
     align-items: center;
     gap: 48px;
     min-height: 430px;
   }
+  .hero-copy {
+    min-width: 0;
+    container-type: inline-size;
+  }
   .hero h1 {
-    font-size: clamp(48px, 4.7vw, 66px);
-    line-height: 1.13;
-    letter-spacing: -3.5px;
+    /* Follow the text column's width, including in the mobile layout. */
+    font-size: clamp(28px, 4vw, 56px);
+    font-size: clamp(28px, 9.5cqw, 56px);
+    line-height: 1.16;
+    letter-spacing: -0.045em;
     margin-top: 26px;
   }
-  .hero h1 > span {
+  .hero-title-line {
+    display: block;
+    white-space: nowrap;
+  }
+  .hero h1 > .hero-title-accent {
     color: #c3f377;
   }
   .hero-intro {
@@ -1003,9 +1013,6 @@
   .hero-grid {
     min-height: 460px;
   }
-  .hero h1 {
-    font-size: 69px;
-  }
 }
 @media (max-width: 1050px) {
   .shell {
@@ -1013,10 +1020,6 @@
   }
   .hero-grid {
     gap: 30px;
-  }
-  .hero h1 {
-    font-size: 48px;
-    letter-spacing: -2.5px;
   }
   .code-body {
     font-size: 9px;
@@ -1112,8 +1115,6 @@
     gap: 42px;
   }
   .hero h1 {
-    font-size: clamp(43px, 8vw, 64px);
-    letter-spacing: -2px;
     margin-top: 23px;
   }
   .hero-intro {

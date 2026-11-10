@@ -24,20 +24,14 @@ function About() {
         </Reveal>
         <Reveal delay={0.08}>
           <p className="about-lead">
-            I like understanding how the whole thing works.
-          </p>
-          <p>
-            My projects connect web development, databases, and data analysis.
-            I’m comfortable moving between frontend interfaces and backend
-            logic, with Python, JavaScript, and Django at the center of my
-            toolkit.
-          </p>
-          <p>
-            Working on collaborative software projects has given me practice
-            with integration, debugging, and bringing changes together in Git. I
-            keep learning by building, reading code, and working through the
-            details.
-          </p>
+  I like understanding the entire system, not just the moving parts.
+</p>
+<p>
+  As a bilingual Computer Science student, my work connects web development, databases, and artificial intelligence. I’m comfortable jumping from frontend interfaces to backend logic, using Python, Java, and C++ to turn complex ideas into functional applications.
+</p>
+<p>
+  Lately, I've been focused on integrating machine learning and neural networks into practical tools. Working on collaborative software projects has given me solid practice with system integration, debugging, and version control in Git. I learn best by building, breaking things, and refining the details.
+</p>
           <a
             className="text-link"
             href={profile.github}
