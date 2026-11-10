@@ -1,0 +1,104 @@
+.hero-architecture {
+  position: relative;
+  min-width: 0;
+  width: 100%;
+  max-width: 580px;
+  margin: 0 auto;
+  isolation: isolate;
+}
+
+.architecture-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 0 10px 17px;
+  border-bottom: 1px solid #8da37a26;
+  color: #acb7a4;
+  font: 9px/1.5 var(--font-mono);
+  letter-spacing: 1.1px;
+}
+
+.architecture-heading > span:first-child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.architecture-heading i {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #c3f377;
+  box-shadow: 0 0 12px #c3f37750;
+}
+
+.architecture-mark {
+  color: #67795e;
+}
+
+.architecture-art {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.architecture-labels {
+  font: 10px var(--font-mono);
+  letter-spacing: 1px;
+}
+
+.architecture-caption {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 0 10px 0;
+  color: #8e9b87;
+  font-size: clamp(17px, 1.65vw, 22px);
+  line-height: 1.45;
+  letter-spacing: -0.5px;
+}
+
+.architecture-caption strong {
+  color: #dce8ce;
+  font-weight: 500;
+}
+
+.architecture-disciplines {
+  padding-bottom: 3px;
+  color: #7f9173;
+  font: 8px/1.9 var(--font-mono);
+  letter-spacing: 0.5px;
+  text-align: right;
+}
+
+@media (max-width: 760px) {
+  .hero-architecture {
+    max-width: 500px;
+    padding-top: 10px;
+  }
+
+  .architecture-caption {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 380px) {
+  .architecture-heading {
+    font-size: 8px;
+    letter-spacing: 0.5px;
+  }
+
+  .architecture-caption {
+    padding-inline: 0;
+    gap: 12px;
+    font-size: 18px;
+  }
+
+  .architecture-disciplines {
+    font-size: 7px;
+    letter-spacing: 0;
+  }
+}

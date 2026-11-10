@@ -36,6 +36,8 @@ The owner-supplied `public/images/durango/durango.jpeg` shows the locally adjust
 
 ## Personal information and visuals
 
+The hero uses an original SVG illustration of connected interface, logic, and data layers. It is conceptual artwork, not a screenshot or a claim about a deployed system. The vector artwork is defined in `src/components/HeroVisual.jsx`, with styles in `HeroVisual.css`.
+
 - Name and GitHub username follow the brief and repository references.
 - The skills inventory is self-reported in the brief. No proficiency percentages are invented. Technologies specific to Flores-MobileNetV2 are labeled in that project’s stack.
 - GitHub is the only contact destination. No email address, phone number, LinkedIn profile, résumé, or location is invented or extracted from commit metadata.
